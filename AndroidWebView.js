@@ -212,6 +212,11 @@ class AndroidWebView extends Component {
      * @platform android
      */
     allowUniversalAccessFromFileURLs: PropTypes.bool,
+
+    /**
+     * Current behavior of the WebView with regard to loading insecure content from a secure origin.
+     */
+    mixedContentMode: PropTypes.string,
   };
 
   static defaultProps = {
